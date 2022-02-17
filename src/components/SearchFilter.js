@@ -15,7 +15,7 @@ function SearchFilter() {
                 })
             })
             .catch(error => {
-                console.log("error when fetch data")
+                console.error("error when fetch data")
             })
     }, [])
 
